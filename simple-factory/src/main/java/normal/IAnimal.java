@@ -1,8 +1,10 @@
+package normal;
+
 /**
  * @author <a href="mailto:wujia@2dfire.com">linxiaohui</a>
- * @version 1.0 18/6/29
+ * @version 1.0 18/7/2
  * @since 1.0
  */
-public interface Animal {
+public interface IAnimal {
     void sing();
 }

@@ -1,3 +1,5 @@
+package normal;
+
 /**
  * @author <a href="mailto:wujia@2dfire.com">linxiaohui</a>
  * @version 1.0 18/6/29
@@ -8,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         AnimalFactory factory = null;
+        //factory方法具体由子类去实现
         factory = new DogFactory();
         Animal dog = factory.createAnimal();
         dog.sing();
