@@ -34,6 +34,7 @@
         <module>command</module>
         <module>iterator</module>
         <module>template-method</module>
+        <module>builder</module>
     </modules>
 
     <dependencies>
